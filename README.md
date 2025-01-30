@@ -1,1 +1,1 @@
-The main (under-developing) idea for redundacy technique for P2P computations is presented in https://arxiv.org/abs/2403.01596 .
+The main (under-developing) idea for redundacy technique for P2P computations is presented in https://arxiv.org/abs/2403.01596  and  https://cs.paperswithcode.com/paper/optimizing-near-field-computation-in-the .
