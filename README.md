@@ -1,1 +1,5 @@
 The main (under-developing) idea for redundacy technique for P2P computations is presented in https://arxiv.org/abs/2403.01596  and  https://cs.paperswithcode.com/paper/optimizing-near-field-computation-in-the .
+
+The article aims to assess the impact of data redundancy on the acceleration of a well-known algorithm (MLFMA) when implemented on GPUs. 
+Initially, a basic mathematical model is developed to forecast the speedup of any algorithm on GPUs based on modifications in data structures. The model counts for infrastructure parameters, algorithm parameters, and complexity of processing data structure. Subsequently, device-related parameters are extracted through profiling. Finally, the model is used to determine the optimal configuration of algorithm parameters to achieve speedup when redundancy is applied.
+To simplify the model, redundancy is applied in global memory to reduce cache miss rates. Additionally, a parameter called 'locality' is defined to estimate the extent to which the data structure causes cache misses. 
